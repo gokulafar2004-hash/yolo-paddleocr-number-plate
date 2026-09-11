@@ -25,7 +25,7 @@ results = ocr.predict(IMAGE_PATH)
 
 print("\n" + "=" * 60)
 print("PADDLEOCR RESULT")
-print("=" * 60)
+# print("=" * 60)
 
 for result in results:
     print(result)
